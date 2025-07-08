@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'France Bus API'
-copyright = '2025, Bastien Charrier'
-author = 'Bastien Charrier'
+project = 'Smartblitzmerker API'
+copyright = '2025, Théo Laurent'
+author = 'Théo Laurent'
 
 release = '0.1'
 version = '0.1.0'
