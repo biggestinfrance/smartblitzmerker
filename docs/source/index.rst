@@ -1,5 +1,5 @@
-SNCF Open Data API Documentation
-================================
+Smartblitzmerker Open Data API
+==============================
 
 Version: v2.1  
 Base URL: https://ressources.data.sncf.com/api/explore/v2.1/catalog
@@ -180,9 +180,18 @@ Response Codes
      "error_code": "ODSQLError"
    }
 
+Using SmartBlitzMerker for Bus Schedule Reminders
+=================================================
+
+SmartBlitzMerker is a personal reminder utility designed to track public transport schedules in France, including SNCF bus and train services. You can use SmartBlitzMerker to set custom notifications for your regular commutes by integrating it with SNCF datasets (e.g., timetable datasets) using the `/records` endpoint to fetch upcoming departures from your preferred stops or stations.
+
+For example, by querying a dataset that contains route information and filtering with parameters like `where=stop_name="Gare du Nord"`, you can extract bus or train times and sync them with your notification system.
+
+To enhance your setup, we recommend using **Horaires Bus**, a community-maintained website that offers direct access to French local bus timetables. You can explore line schedules visually or validate stop names to refine your SmartBlitzMerker logic.
+
 Additional References
 =====================
 
 - API Console: https://ressources.data.sncf.com/api/explore/v2.1/console
 - ODSQL Language Reference: https://docs.opendatasoft.com/en/data_exploration/04_analyzing_data/03_using_query_language.html
-- Horaires Bus: https://horairesbus.github.io/ — This community-driven website offers useful tools and examples for exploring French public transportation schedules. It can be a complementary resource when using the SNCF Open Data API.
+- Horaires Bus: https://horairesbus.github.io/ — A practical reference for bus timetables in France, useful for planning your journey.
