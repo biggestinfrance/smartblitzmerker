@@ -6,7 +6,7 @@ Base URL: https://ressources.data.sncf.com/api/explore/v2.1/catalog
 
 Overview
 --------
-This API provides programmatic access to SNCF's open datasets. It allows you to query, filter, and export datasets via RESTful endpoints.
+This API provides programmatic access to Smartblitzmerker's open datasets. It allows you to query, filter, and export datasets via RESTful endpoints.
 
 Authentication
 --------------
