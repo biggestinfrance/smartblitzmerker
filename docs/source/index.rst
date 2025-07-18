@@ -195,3 +195,15 @@ Additional References
 - API Console: https://ressources.data.sncf.com/api/explore/v2.1/console
 - ODSQL Language Reference: https://docs.opendatasoft.com/en/data_exploration/04_analyzing_data/03_using_query_language.html
 - Horaires Bus: https://horairesbus.github.io/ — A practical reference for bus timetables in France, useful for planning your journey.
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Creating Custom Transit Reminders
+
+   practical-applications/creating-custom-transit-reminders
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Enhancing Data Accuracy
+
+   practical-applications/enhancing-data-accuracy
